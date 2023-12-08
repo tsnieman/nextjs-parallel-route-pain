@@ -22,14 +22,16 @@ export default function Page() {
 		<dialog open className="border-solid border-2 border-indigo-600 shadow-xl min-w-[500px] min-h-[500px]">
 			<h1>{`i'm a modal`}</h1>
 
-			<p>hi</p>
+			<br />
 
 			<form action={createItem}>
-				<button type="submit" className="button">click to create new blog post</button>
+				<button type="submit" className="button">CREATE NEW BLOG POST</button>
 			</form>
 
-			<Link href="/">
-				click to close the modal
+			<br />
+
+			<Link href="/" className="text-blue-500 underline">
+				LINK BACK TO HOME PAGE
 			</Link>
 		</dialog>
 	);
