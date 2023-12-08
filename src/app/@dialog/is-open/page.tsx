@@ -15,7 +15,7 @@ export default function Page() {
 		});
 
 		// make sure all the data on the page reloads
-		revalidatePath('/', 'page');
+		revalidatePath('/', 'layout');
 	}
 
 	return (
